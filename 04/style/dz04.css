@@ -1,6 +1,11 @@
 .system-planets{
     text-align: center;
     margin: 250px;
+    img {
+        width: 1000px;
+        height: 950px;
+      }
+      
 }
 h1{
     text-align: center;
@@ -17,6 +22,10 @@ h2{
     font-size: 75px;
     text-align: center;
     margin: 100px;
+    img {
+        width: 1000px;
+        height: 1000px;
+      }      
 }
 .mercury-planet h3,
 .mercury-planet p{
@@ -26,6 +35,10 @@ h2{
     font-size: 77px;
     text-align: left;
     margin: 100px;
+    img {
+        width: 1000px;
+        height: 1000px;
+      }  
 }
 .venus-planet h3{
     text-align: right;
@@ -37,6 +50,10 @@ h2{
     font-size: 77px;
     text-align: right;
     margin: 100px;
+    img {
+        width: 1000px;
+        height: 1000px;
+      }  
 }
 .earth-planet h3,
 .earth-planet p{
@@ -46,6 +63,10 @@ h2{
     font-size: 73px;
     text-align: center;
     margin: 100px;
+    img {
+        width: 1000px;
+        height: 1000px;
+      }  
 }
 .mars-planet h3,
 .mars-planet p{
@@ -55,6 +76,10 @@ h2{
     font-size: 68px;
     text-align: center;
     margin: 100px;
+    img {
+        width: 3000px;
+        height: 1500px;
+      }  
 }
 .jupiter-planet h3,
 .jupiter-planet p{
@@ -64,6 +89,10 @@ h2{
     font-size: 65px;
     text-align: center;
     margin: 100px;
+    img {
+        width: 2500px;
+        height: 1400px;
+      }  
 }
 .saturn-planet h3{
     text-align: center;
@@ -75,6 +104,10 @@ h2{
     font-size: 60px;
     text-align: left;
     margin: 100px;
+    img {
+        width: 1500px;
+        height: 1000px;
+      }  
 }
 .uranus-planet h3{
     text-align: right;
@@ -86,6 +119,10 @@ h2{
     font-size: 57px;
     text-align: right;
     margin: 100px;
+    img {
+        width: 1500px;
+        height: 1000px;
+      }  
 }
 .neptune-planet h3,
 .neptune-planet p{
@@ -95,6 +132,10 @@ h2{
     font-size: 58px;
     text-align: center;
     margin: 100px;
+    img {
+        width: 1000px;
+        height: 1000px;
+      }  
 }
 .pluto-planet h3,
 .pluto-planet p{
