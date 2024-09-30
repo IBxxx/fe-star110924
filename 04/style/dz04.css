@@ -1,0 +1,102 @@
+.system-planets{
+    text-align: center;
+    margin: 250px;
+}
+h1{
+    text-align: center;
+    font-size: 150px;
+    margin: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px;
+    color: rgb(151, 143, 27);
+}
+.mercury-planet{
+    font-size: 75px;
+    text-align: center;
+    margin: 100px;
+}
+.mercury-planet h3,
+.mercury-planet p{
+    text-align: left;
+}
+.venus-planet{
+    font-size: 77px;
+    text-align: left;
+    margin: 100px;
+}
+.venus-planet h3{
+    text-align: right;
+}
+.venus-planet p{
+    text-align: left;
+}
+.earth-planet{
+    font-size: 77px;
+    text-align: right;
+    margin: 100px;
+}
+.earth-planet h3,
+.earth-planet p{
+    text-align: center;
+}
+.mars-planet{
+    font-size: 73px;
+    text-align: center;
+    margin: 100px;
+}
+.mars-planet h3,
+.mars-planet p{
+    text-align: left;
+}
+.jupiter-planet{
+    font-size: 68px;
+    text-align: center;
+    margin: 100px;
+}
+.jupiter-planet h3,
+.jupiter-planet p{
+    text-align: center;
+}
+.saturn-planet{
+    font-size: 65px;
+    text-align: center;
+    margin: 100px;
+}
+.saturn-planet h3{
+    text-align: center;
+}
+.saturn-planet p{
+    text-align: left;
+}
+.uranus-planet{
+    font-size: 60px;
+    text-align: left;
+    margin: 100px;
+}
+.uranus-planet h3{
+    text-align: right;
+}
+.uranus-planet p{
+    text-align: left;
+}
+.neptune-planet{
+    font-size: 57px;
+    text-align: right;
+    margin: 100px;
+}
+.neptune-planet h3,
+.neptune-planet p{
+    text-align: left;
+}
+.pluto-planet{
+    font-size: 58px;
+    text-align: center;
+    margin: 100px;
+}
+.pluto-planet h3,
+.pluto-planet p{
+    text-align: center;
+}
