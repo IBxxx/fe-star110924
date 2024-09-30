@@ -1,11 +1,10 @@
 .system-planets{
     text-align: center;
-    margin: 250px;
-    img {
-        width: 1000px;
-        height: 950px;
-      }
-      
+    margin: 250px;      
+}
+.system-planets img{
+    width: 1000px;
+    height: 950px;
 }
 h1{
     text-align: center;
@@ -63,10 +62,6 @@ h2{
     font-size: 73px;
     text-align: center;
     margin: 100px;
-    img {
-        width: 1000px;
-        height: 1000px;
-      }  
 }
 .mars-planet img{
     width: 1000px;
