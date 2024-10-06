@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(153, 145, 149);
+}
 .system-planets{
     text-align: center;
     margin: 50px;      
@@ -15,7 +18,7 @@ h2{
     text-align: center;
     font-size: 40px;
     margin: 50px;
-    color: rgb(151, 143, 27);
+    color: rgb(88, 85, 32);
 }
 .mercury-planet{
     font-size: 38px;
