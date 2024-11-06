@@ -6,9 +6,10 @@ body{
     width: 1728px;
     height: 1117px;
     margin: 0 auto;
+    padding: 0;
     background-color: #0e1118;
 }
-.Netflix_black {
+.Netflix_body {
     position: fixed;
 }
 header{
@@ -18,30 +19,7 @@ header{
     left: 0;
     top: 0;
 }
-main{
-    position: absolute;
-    width: 1728px;
-    height: 623px;
-    left: 0;
-    top: 157px;
-}
-.Breaking_Bad {
-    position: absolute;
-    left: 250px;
-    top: 0px; 
-    color: white;
-}
-.Breaking_Bad, h1 {
-    font-family: "Inter", sans-serif;
-    font-size: 41px;
-}
-footer {
-    position: absolute;
-    width: 1728px;
-    height: 337px;
-    left: 0;
-    top: 780px;
-}
+
 .netflix-logo {
     position: absolute;
     width: 500px;
@@ -55,7 +33,7 @@ footer {
     top: 10px;
     padding: 0px 0px;
 }
-.titling-family {
+.date_and_day {
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -65,12 +43,15 @@ footer {
     top: 2px;
     left: 217px;
 }
-.Vector{
+.search{
     position: absolute;
     width: 43px;
     height: 43px;
     left: 1533px;
     top: 57px;
+}
+.search:hover {
+    transform: scale(1.1);
 }
 .Ellipse_2 {
     position: absolute;
@@ -79,14 +60,21 @@ footer {
     left: 1621px;
     top: 42px;
 }
-.block-1 {
+main{
+    position: absolute;
+    width: 1728px;
+    height: 623px;
+    left: 0;
+    top: 157px;
+}
+.text-1 {
     position: absolute;
     height: 80px;
     left: 41px;
     top: 58px;
     width: 540px;
 }
-.block-1 h4 {
+.text-1 h4 {
     font-family: Inter;
     font-size: 32px;
     font-weight: 400;
@@ -94,14 +82,14 @@ footer {
     color: rgb(255, 255, 255); 
     margin: 19px 0;  
 }
-.block-6 {
+.text-6 {
     position: absolute;
     width: 580px;
     height: 134px;
     left: 38px;
     top: 101px;
 }
-.block-6 h1 {
+.text-6 h1 {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 65px;
@@ -110,12 +98,12 @@ footer {
     margin: 0 auto;
     padding: 39px 0px;
 }
-.block-7 {
+.text-7 {
     position: absolute;
     left: 40px;
     top: 247px;
 }
-.block-7 h2 {
+.text-7 h2 {
     font-family: Inter;
     font-size: 26px;
     font-weight: 400;
@@ -134,14 +122,14 @@ footer {
     color: rgb(167, 166, 166);
 }
 
-.block-8 {
+.text-8 {
     position: absolute;
     width: 864px;
     left: 40px;
     top: 309px;
     padding: 0px 0 0 1px;
 }
-.block-8 p {
+.text-8 p {
     color: rgb(167, 166, 166);
     font-family: "Inter";
     font-size: 144%;
@@ -151,18 +139,21 @@ footer {
     word-spacing: 7px;
     text-indent: 7px;
 }
-.Group_5 {
+.star-5 {
     position: absolute;
     left: 33px;
     top: 427px;
     font-size: 17px;
     word-spacing: 22px;
 }
-.Group_5 h4 {
+.star-5 p {
     margin: 0 auto;
     padding: 15px 0px;
     font-size: 13px;
     word-spacing: 7.6px;
+}
+.fa-star:hover {
+    transform: scale(1.1);
 }
 .Rectangle_2 {
     position: absolute;
@@ -183,6 +174,9 @@ footer {
     letter-spacing: 0px;
     padding: 35px;
 }
+.Rectangle_2:hover {
+    transform: scale(1.02);
+}
 .play-circle {
     position: absolute;
     top: 19%;
@@ -200,6 +194,9 @@ footer {
     border: 3px solid rgb(255, 255, 255);
     border-radius: 10px;
 }
+.Rectangle_3:hover {
+    transform: scale(1.02);
+}
 .ALL_EPISODES {
     position: absolute;
     left: 55px;
@@ -210,6 +207,32 @@ footer {
     font-weight: 500;
     line-height: 141.52%;
     letter-spacing: 0px;
+}
+.film_list {
+    text-align: center;
+}
+.film_list h1 {
+    text-align: center;
+    color: white;
+}
+.film_list iframe {
+    border-radius: 30px;
+    border: 1px solid White;
+}
+footer {
+    position: absolute;
+    width: 1728px;
+    height: 337px;
+    left: 0;
+    top: 780px;
+}
+.text_2 p {
+    color: white;
+    padding: 0 235px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3.3px;
 }
 .POPULAR_THIS_WEEK {
     position: absolute;
@@ -242,6 +265,9 @@ footer {
     border-radius: 40px;
     padding: 2px;
 }
+.next_left:hover {
+    transform: scale(1.05);
+}
 .next_right {
     position: absolute;
     width: 41px;
@@ -253,6 +279,59 @@ footer {
     border-radius: 40px;
     padding: 2px;
 }
+.next_right:hover {
+    transform: scale(1.05);
+}
+/* film */
+.next_Left {
+    left: 40px;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    border: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 3;
+    padding-right: 0.75rem;
+    transition: transform 400ms ease-in-out;
+}
+.next_Left a {
+    height: 5rem;
+    border-radius: 16rem;
+    background-color: rgba(128, 128, 128, 0.1);
+    padding-block: 22px;
+}
+.next_Left:hover {
+    transform: scale(1.05);
+}
+.next_Right {
+    right: 40px;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    border: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    z-index: 3;
+    padding-right: 0.75rem;
+    transition: transform 400ms ease-in-out;
+}
+.next_Right a {
+    height: 5rem;
+    border-radius: 16rem;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding-block: 22px;
+}
+.next_Right:hover {
+    transform: scale(1.05);
+}
+/* film */
 .fa-xl {
     position: absolute;
     font-size: 1.9em;
@@ -276,12 +355,18 @@ footer {
     left: 40px;
     top: 78px;
 }
+.Rectangle_6:hover {
+    transform: scale(0.98);
+}
 .Rectangle_7 {
     position: absolute;
     width: 151px;
     height: 210px;
     left: 241px;
     top: 78px;
+}
+.Rectangle_7:hover {
+    transform: scale(0.98);
 }
 .Rectangle_8 {
     position: absolute;
@@ -290,6 +375,9 @@ footer {
     left: 442px;
     top: 78px;
 }
+.Rectangle_8:hover {
+    transform: scale(0.98);
+}
 .Rectangle_9 {
     position: absolute;
     width: 151px;
@@ -297,12 +385,18 @@ footer {
     left: 643px;
     top: 78px;
 }
+.Rectangle_9:hover {
+    transform: scale(0.98);
+}
 .Rectangle_11 {
     position: absolute;
     width: 145px;
     height: 210px;
     left: 844px;
     top: 78px;
+}
+.Rectangle_11:hover {
+    transform: scale(0.98);
 }
 .Rectangle_4 {
     padding: 33px 71px;
